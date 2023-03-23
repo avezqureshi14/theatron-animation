@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: unset;
+  list-style: none;
+  font-family: 'Poppins' !important;
+}
+
+
+
+body{
+    background: url(gif1.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0 10px #fff;
+    color: lightblue;
+    font-size: 2rem;
+    text-align: center;
+    margin: 3rem;
+}
